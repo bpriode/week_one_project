@@ -1,0 +1,138 @@
+*{
+  border: 1px solid red;
+}
+
+body{
+  background-color: #F2F1E8;
+  max-width: 1500px;
+  margin: 0;
+  padding:0;
+}
+
+.header{
+  display:flex;
+  align-items: center;
+  background-color: white;
+  justify-content: space-between;
+}
+
+.nav_tags{
+  display:flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.nav_tags a{
+
+}
+
+.bent_creek{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Merriweather";
+}
+
+
+h3{
+  background-color: #968772;
+  display: flex;
+  align-items: flex-end;
+}
+
+.first_row_pictures{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+  margin: 10px;
+  align-items: flex-end;
+  font-family: "Merriweather";
+  /*padding:10px;*/
+  }
+
+#succulant{
+  background-image: url("images/product-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 5px;
+  margin-right: 10px;
+  width: 700px;
+  height:400px;
+  }
+
+#bowls{
+  background-image: url("images/product-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px 10px;
+  width: 300px;
+  height: 400px;
+}
+
+#tray{
+  background-image: url("images/product-3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 5px;
+  margin-left: 10px;
+  width: 300px;
+  height: 400px;
+}
+
+.second_row_pictures{
+  display:flex;
+  flex-direction: row;
+  justify-content: row;
+  color: white;
+  align-items: flex-end;
+  margin: 10px;
+}
+
+#mug{
+  background-image: url("images/product-4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 5px;
+  width: 275px;
+  height: 300px;
+  }
+
+#jug{
+  background-image: url("images/product-5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 5px;
+  width: 275px;
+  height: 300px;
+  margin: 0px 5px;
+}
+
+#pitcher{
+  background-image: url("images/product-6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 5px;
+  width: 500px;
+  height: 300px;
+  margin-left:5px;
+  margin-right: 10px;
+}
+#saucer{
+  background-image: url("images/product-7.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 5px;
+  width: 300px;
+  height: 300px;
+}
+
+.footer{
+  display: block;
+  height: 100px;
+  width: 1350px;
+  background-color: #968772;
+  color: white;
+  margin: 0;
+}
