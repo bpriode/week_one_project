@@ -1,43 +1,75 @@
-*{
-  border: 1px solid red;
-}
-
 body{
-  background-color: #F2F1E8;
   max-width: 1500px;
   margin: 0;
   padding:0;
+  background-color: #F2F1E8;
 }
 
 .header{
   display:flex;
   align-items: center;
   background-color: white;
-  justify-content: space-between;
+  justify-content: flex-start;
+  width: 100%;
+  position:fixed;
 }
 
 .nav_tags{
   display:flex;
   align-content: center;
-  justify-content: center;
+  margin-left: 375px;
+  padding: 20px;
+  text-transform: uppercase;
+  justify-content: space-between;
 }
 
 .nav_tags a{
-
+  display: flex;
+  justify-content: space-between;
+  color: #2B2F26;
+  font-family: "Roboto";
+  font-size: 20pt;
 }
 
-.bent_creek{
+.nav_tags a:hover{
+  color: #CD5D67;
+}
+
+.link{
+  margin: 10px;
+}
+
+.text{
   display: flex;
   align-items: center;
   flex-direction: column;
   font-family: "Merriweather";
+  background-color: #F2F1E8;
+  margin: 0;
+}
+
+#Bent{
+  font-size: 60pt;
+  font-weight: 200;
+  margin: 10px;
+  margin-top: 150px;
+}
+
+#nature{
+  font-size: 40pt;
+  font-weight: 200;
+  margin: 10px;
 }
 
 
 h3{
-  background-color: #968772;
-  display: flex;
-  align-items: flex-end;
+  background-color: #2B2F26;
+  font-family: "Merriweather";
+  font-weight: 200;
+  margin-left: 0;
+  margin-top: 200px;
+  padding: 20px;
+  float: left;
 }
 
 .first_row_pictures{
@@ -45,10 +77,11 @@ h3{
   flex-direction: row;
   justify-content: center;
   color: white;
-  margin: 10px;
+  margin: 0px;
   align-items: flex-end;
   font-family: "Merriweather";
-  /*padding:10px;*/
+  padding:10px;
+  background-color: #F2F1E8;
   }
 
 #succulant{
@@ -57,7 +90,7 @@ h3{
   background-repeat: no-repeat;
   padding: 5px;
   margin-right: 10px;
-  width: 700px;
+  width: 60%;
   height:400px;
   }
 
@@ -65,8 +98,8 @@ h3{
   background-image: url("images/product-2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  margin: 0px 10px;
-  width: 300px;
+  padding: 5px;
+  width: 20%;
   height: 400px;
 }
 
@@ -76,17 +109,18 @@ h3{
   background-repeat: no-repeat;
   padding: 5px;
   margin-left: 10px;
-  width: 300px;
+  width: 20%;
   height: 400px;
 }
 
 .second_row_pictures{
   display:flex;
   flex-direction: row;
-  justify-content: row;
   color: white;
   align-items: flex-end;
-  margin: 10px;
+  margin: 0px;
+  background-color: #F2F1E8;
+  padding: 10px;
 }
 
 #mug{
@@ -94,7 +128,7 @@ h3{
   background-size: cover;
   background-repeat: no-repeat;
   padding: 5px;
-  width: 275px;
+  width: 20%;
   height: 300px;
   }
 
@@ -103,7 +137,7 @@ h3{
   background-size: cover;
   background-repeat: no-repeat;
   padding: 5px;
-  width: 275px;
+  width: 20%;
   height: 300px;
   margin: 0px 5px;
 }
@@ -114,9 +148,8 @@ h3{
   background-repeat: no-repeat;
   position: relative;
   padding: 5px;
-  width: 500px;
+  width: 40%;
   height: 300px;
-  margin-left:5px;
   margin-right: 10px;
 }
 #saucer{
@@ -124,15 +157,19 @@ h3{
   background-size: cover;
   background-repeat: no-repeat;
   padding: 5px;
-  width: 300px;
+  width: 20%;
   height: 300px;
 }
 
 .footer{
-  display: block;
+  display: flex;
+  align-items: center;
   height: 100px;
-  width: 1350px;
-  background-color: #968772;
+  width: 100%;
+  background-color: #2B2F26;
+  font-family: "Merriweather";
+  font-weight: 200;
   color: white;
   margin: 0;
+  padding-left: 25px;
 }
