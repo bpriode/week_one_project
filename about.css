@@ -35,10 +35,6 @@ body{
   padding: 20px;
 }
 
-.nav_tags a:hover{
-  color: #CD5D67;
-}
-
 .community h1{
   display: flex;
   justify-content:center;
@@ -105,7 +101,7 @@ body{
 }
 
 #text3{
-  width: 80%;
+  width: 90%;
   height: 200px;
   font-family: "Merriweather";
   font-weight: 200;
@@ -113,6 +109,7 @@ body{
   margin-left: 50px;
   line-height: 1.9;
   flex-wrap: nowrap;
+
 }
 
 h1{
@@ -153,39 +150,36 @@ h1{
 
 .caption{
   display: flex;
-  /*flex-direction: row;*/
-  flex-wrap: wrap;
+  flex-direction: row;
+  flex-wrap: nowrap;
   width: 80px;
   margin-bottom: 50px;
 }
 #pottery{
-  /*background-image: url("images/background-1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;*/
   padding: 5px;
   width: 20%;
   height:150px;
-  /*float: right;*/
+  float: right;
   margin-top: 0px;
-  margin-left: 10px;
+  margin-right: 10px;
   flex-wrap: wrap;
   align-self: flex-start;
-  /*text-align: center;*/
-  /*align-items: flex-end;*/
 }
 
 
 
 #pottery_caption{
   /*display: inline-block;*/
-  margin-top: 165px;
-  margin-right: 200px;
+  /*margin-top: 165px;*/
+  /*margin-left: 600px;*/
   /*align-content: flex-end;*/
   font-size: 10pt;
   font-style: italic;
-  width: 80%;
+  width: 30%;
   height: 50px;
   align-self: flex-end;
+  float:right;
+
 }
 
 
